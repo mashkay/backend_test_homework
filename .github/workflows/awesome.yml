@@ -1,13 +1,13 @@
-name: awesome-workflow
+ name: awesome-workflow
 
-on:
+ on:
   push:
     branches: [ master   ]    
     
-jobs:          
+ jobs:          
    tests:
-   runs-on: ubuntu-latest
-   steps:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v3
