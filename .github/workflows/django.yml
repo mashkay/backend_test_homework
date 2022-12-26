@@ -2,8 +2,8 @@ name: Django CI
 
 on:
   push:
-    branches: [ master ]
-djdgdsfgakdwofhskjcshfdqwohdohawgdawh
+    branches: [ main ]
+
 
 jobs:
   build:
