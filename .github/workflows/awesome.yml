@@ -3,6 +3,11 @@ name: awesome-workflow
 on:
   push:
     branches: [ master   ]    
+    
+    
+    
+    
+    
 jobs        :          
  tests:
    runs-on: ubuntu-latest
