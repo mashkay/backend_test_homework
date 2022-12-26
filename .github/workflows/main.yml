@@ -2,8 +2,8 @@ name: Django app-workflow
 
 on:
   push:
-    branches: [ master ]
-jobs:       
+    branches: [ master   ]    
+jobs:          
    tests:
     runs-on: ubuntu-latest
     steps:
@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.7
-    - name: Install Dependencies
+    - name: priny im awesome
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
