@@ -2,8 +2,8 @@
 
  on:
      push:
-       branches: [ master   ]    
- jobs:                                                                                            а   
+       branches: [ master   ]                                                                                                  жопа
+ jobs:                                                                                             
   tests:                                                                                         
                                           runs-on: ubuntu-latest
                                           steps:
