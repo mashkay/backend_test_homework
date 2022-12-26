@@ -3,10 +3,8 @@ name: Django CI
 on:
   push:
     branches: [ main ]
-
-
-jоbs:
-  build:
+jobs:
+  tests:
 
     runs-on: ubuntu-latest
     strategy:
