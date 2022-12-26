@@ -3,8 +3,10 @@
  on:
      push:
        branches: [ master   ]                
-                                                                                                                     ппц
- jobs:                                                                                             
+                                                                                                                     
+ jobs:                                                                                                                
+                                                                                                                                ав         
+ 
   tests:                                                                                         
                                           runs-on: ubuntu-latest
                                           steps:
